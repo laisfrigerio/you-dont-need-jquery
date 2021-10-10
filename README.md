@@ -18,8 +18,8 @@ Replace jQuery methods with Vanilla Javascript
 8. [Set data attribute](#8-set-data-attribute)
 9. [Get Text](#9-get-text)
 10. [Get HTML](#10-get-html)
-11. [Insert HTML string](#insert-html-string)
-12. [Insert text string](#insert-text-string)
+11. [Insert HTML string](#11-insert-html-string)
+12. [Insert text string](#12-insert-text-string)
 13. [Show element](#show-element)
 14. [Hide element](#hide-element)
 15. [Show element with transition](#show-element-with-transition)
@@ -154,9 +154,19 @@ Getting HTML from an element:
   element.innerHTML;
 ```
 
-### Insert HTML string
+### 11. Insert HTML string
 
-### Insert text string
+### 12. Insert text string
+
+Adding text into an element:
+
+```js
+  // jQuery
+  element.text('Your text here');
+
+  // ES6
+  element.innerText = 'Your text here';
+```
 
 ### Show element
 

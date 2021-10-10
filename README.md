@@ -44,47 +44,33 @@ Replace jQuery methods with Vanilla Javascript
 
 ### 2. Select something within a parent
 
-❌ jQuery
-
 ```js
+  // jQuery
   parent.find('.class-name');
-```
 
-✔️ Vanilla JS
-
-```js
+  // ES6
   parent.querySelector('.class-name'); // single
   parent.querySelectorAll('.class-name'); // multiple
 ```
 
 ### 3. Add class
 
-❌ jQuery
-
 ```js
+  // jQuery
   element.addClass('.class-name');
-```
 
-✔️ Vanilla JS
-
-```js
+  // ES6
   element.classList.add('.class-name');
 ```
-
 ### 4. Remove class
 
-❌ jQuery
-
 ```js
+  // jQuery
   element.removeClass('.class-name');
-```
 
-✔️ Vanilla JS
-
-```js
+  // ES6
   element.classList.remove('.class-name');
 ```
-
 ### Get attribute
 
 ### Set attribute

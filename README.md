@@ -286,15 +286,26 @@ Using vanilla javascript, require extra css:
   }
 
   // or
-
   for (const [key, value] of Object.entries(object)) {
     console.log(key, value);
   }
 ```
 
-### Add Event Listener
+### 20. Add Event Listener
 
-### Ajax request
+```js
+  // jQuery:
+  element.on( 'click', function(event) {
+    // ...
+  });
+
+  // ES6:
+  element.addEventListener('click', (event) => {
+    // ...
+  });
+```
+
+### 21. Ajax request
 
 ## :woman: Author
 

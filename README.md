@@ -2,7 +2,11 @@
 
 Replace jQuery methods with Vanilla Javascript
 
-## Table of Content
+<p align="center">
+  <a><img src="./images/cover-image-you-dont-need-jquery.png" alt="Capa do repositório escrito: You don't need jQuery" title="Capa do repositório escrito: You don't need jQuery"></a>
+</p>
+
+## 📝 Table of Content
 
 1. [Select something](#select-something)
 2. [Select something within a parent](#select-something-within-a-parent)

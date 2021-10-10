@@ -22,8 +22,8 @@ Replace jQuery methods with Vanilla Javascript
 12. [Insert text string](#12-insert-text-string)
 13. [Show element](#13-show-element)
 14. [Hide element](#14-hide-element)
-15. [Show element with transition](#show-element-with-transition)
-16. [Hide element with transition](#hide-element-with-transition)
+15. [Show element with transition](#15-show-element-with-transition)
+16. [Hide element with transition](#16-hide-element-with-transition)
 17. [Loop through Array](#loop-through-array)
 18. [Loop through Object](#loop-through-object)
 19. [Add Event Listener](#add-event-listener)
@@ -198,9 +198,54 @@ Adding text into an element:
   element.style.display = 'none';
 ```
 
-### Show element with transition
+### 15. Show element with transition
 
-### Hide element with transition
+```js
+  // jQuery
+  element.fadeIn();
+
+  // ES6
+  function fadeIn (element) {
+    element.classList.add('show');
+    element.classList.remove('hide');
+  }
+```
+
+Using vanilla javascript, require extra css:
+
+```css
+  .show {
+    transition: opacity 400ms;
+  }
+  .hide {
+    opacity: 0;
+  }
+```
+
+### 16. Hide element with transition
+
+```js
+  // jQuery
+  element.fadeOut();
+
+  // ES6
+  function fadeOut (element) {
+    element.classList.add('hide');
+    element.classList.remove('show');
+  }
+```
+
+Using vanilla javascript, require extra css:
+
+```css
+  .show {
+    opacity: 1;
+  }
+  .hide {
+    opacity: 0;
+    transition: opacity 400ms;
+  }
+```
 
 ### Loop through Array
 

@@ -61,13 +61,13 @@ Replace jQuery methods with Vanilla Javascript
 
 ### 3. Add class
 
-❌
+❌ jQuery
 
 ```js
   element.addClass('.class-name');
 ```
 
-✔️
+✔️ Vanilla JS
 
 ```js
   element.classList.add('.class-name');

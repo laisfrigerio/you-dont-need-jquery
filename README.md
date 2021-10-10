@@ -34,10 +34,10 @@ Replace jQuery methods with Vanilla Javascript
 ### 1. Select something
 
 ```js
-  // ❌ jQuery
+  // jQuery
   $('.class-name');
 
-  // ✔️ Vanilla JS
+  // ES6
   document.querySelector('.class-name'); // single
   document.querySelectorAll('.class-name'); // multiple
 ```

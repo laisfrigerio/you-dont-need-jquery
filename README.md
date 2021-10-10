@@ -27,8 +27,8 @@ Replace jQuery methods with Vanilla Javascript
 17. [Hide element with transition](#17-hide-element-with-transition)
 18. [Loop through Array](#18-loop-through-array)
 19. [Loop through Object](#19-loop-through-object)
-20. [Add Event Listener](#add-event-listener)
-21. [Ajax request](#ajax-request)
+20. [Add Event Listener](#20-add-event-listener)
+21. [Ajax request](#21-ajax-request)
 
 ## How to replace jQuery with Vanilla Javascript
 
@@ -306,6 +306,39 @@ Using vanilla javascript, require extra css:
 ```
 
 ### 21. Ajax request
+
+```js
+  // jQuery:
+  $.ajax({
+    url: 'https://example.com',
+    method: 'post',
+    dataType: 'json',
+    contentType: 'application/json',
+    data: JSON.stringify(data),
+    success: function(response){
+      // ...
+    },
+    error: function(error){
+      // ...
+    }
+  });
+
+  // ES6:
+  fetch( 'https://example.com', {
+    method: 'post',
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(data)
+  })
+  .then(response => {
+    // ...
+  })
+  .catch(error => {
+    // ...
+  });
+```
 
 ## :woman: Author
 

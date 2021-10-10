@@ -62,6 +62,7 @@ Replace jQuery methods with Vanilla Javascript
   // ES6
   element.classList.add('.class-name');
 ```
+
 ### 4. Remove class
 
 ```js
@@ -71,9 +72,26 @@ Replace jQuery methods with Vanilla Javascript
   // ES6
   element.classList.remove('.class-name');
 ```
-### Get attribute
 
-### Set attribute
+### 5. Get attribute
+
+```js
+  // jQuery
+  element.attr('href');
+
+  // ES6
+  element.getAttribute('href');
+```
+
+### 6. Set attribute
+
+```js
+  // jQuery
+  element.attr('href', 'https://www.google.com');
+
+  // ES6
+  element.setAttribute('href', 'https://www.google.com');
+```
 
 ### Get data attribute
 

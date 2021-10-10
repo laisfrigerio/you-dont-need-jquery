@@ -1,6 +1,50 @@
-# :copyright: You don't need Jquery
+# 🚫 You don't need Jquery
 
 Replace jQuery methods with Vanilla Javascript
+
+## Summary
+
+## How to replace Jquery with Vanilla Javascript
+
+### Select something
+
+### Select something within a parent
+
+### Add class
+
+### Remove class
+
+### Get attribute
+
+### Set attribute
+
+### Get data attribute
+
+### Set data attribute
+
+### Get Text
+
+### Get HTML
+
+### Insert HTML string
+
+### Insert text string
+
+### Show element
+
+### Hide element
+
+### Show element with transition
+
+### Hide element with transition
+
+### Loop through Array
+
+### Loop through Object
+
+### Add Event Listener
+
+### Ajax request
 
 ## :woman: Author
 

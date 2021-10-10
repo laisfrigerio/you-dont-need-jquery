@@ -16,8 +16,8 @@ Replace jQuery methods with Vanilla Javascript
 6. [Set attribute](#6-set-attribute)
 7. [Get data attribute](#7-get-data-attribute)
 8. [Set data attribute](#8-set-data-attribute)
-9. [Get Text](#get-text)
-10. [Get HTML](#get-html)
+9. [Get Text](#9-get-text)
+10. [Get HTML](#10-get-html)
 11. [Insert HTML string](#insert-html-string)
 12. [Insert text string](#insert-text-string)
 13. [Show element](#show-element)
@@ -46,7 +46,7 @@ Selecting element by class name. You can also use to select by tag or identifier
 
 ### 2. Select something within a parent
 
-This example is similar with above: select element throught a parent:
+This example is similar to the one above: with an additional selection throught a parent element:
 
 ```js
   // jQuery
@@ -130,11 +130,19 @@ Set value into data attribute from an element:
   element.dataset.id = 1;
 ```
 
-### Get Text
+### 9. Get Text
 
-- Test description
+Getting text from an element:
 
-### Get HTML
+```js
+  // jQuery
+  element.text();
+
+  // ES6
+  element.textContent;
+```
+
+### 10. Get HTML
 
 ### Insert HTML string
 

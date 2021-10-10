@@ -156,6 +156,16 @@ Getting HTML from an element:
 
 ### 11. Insert HTML string
 
+Adding HTML into an element:
+
+```js
+  // jQuery
+  element.html('<a href="https://www.gogle.com">Google</a>');
+
+  // ES6
+  element.innerHTML = '<a href="https://www.gogle.com">Google</a>';
+```
+
 ### 12. Insert text string
 
 Adding text into an element:

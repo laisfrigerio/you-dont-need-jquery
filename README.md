@@ -144,6 +144,16 @@ Getting text from an element:
 
 ### 10. Get HTML
 
+Getting HTML from an element:
+
+```js
+  // jQuery
+  element.html();
+
+  // ES6
+  element.innerHTML;
+```
+
 ### Insert HTML string
 
 ### Insert text string

@@ -31,7 +31,7 @@ Replace jQuery methods with Vanilla Javascript
 
 ## How to replace Jquery with Vanilla Javascript
 
-### Select something
+### 1. Select something
 
 - jQuery
 
@@ -46,7 +46,7 @@ Replace jQuery methods with Vanilla Javascript
   document.querySelectorAll('.class-name'); // multiple
 ```
 
-### Select something within a parent
+### 2. Select something within a parent
 
 ```js
   parent.find('.class-name');
@@ -59,7 +59,19 @@ Replace jQuery methods with Vanilla Javascript
   parent.querySelectorAll('.class-name'); // multiple
 ```
 
-### Add class
+### 3. Add class
+
+- jQuery
+
+```js
+  element.addClass('.class-name');
+```
+
+- Javascript Vanilla
+
+```js
+  element.classList.add('.class-name');
+```
 
 ### Remove class
 

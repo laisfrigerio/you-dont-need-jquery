@@ -116,6 +116,8 @@ Replace jQuery methods with Vanilla Javascript
 
 ### Get Text
 
+- Test description
+
 ### Get HTML
 
 ### Insert HTML string

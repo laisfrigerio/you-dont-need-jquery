@@ -36,17 +36,28 @@ Replace jQuery methods with Vanilla Javascript
 - jQuery
 
 ```js
-  $( '.class-name' );
+  $('.class-name');
 ```
 
 - Javascript Vanilla
 
 ```js
-  document.querySelector( '.class-name' ); // single
-  document.querySelectorAll( '.class-name' ); // multiple
+  document.querySelector('.class-name'); // single
+  document.querySelectorAll('.class-name'); // multiple
 ```
 
 ### Select something within a parent
+
+```js
+  parent.find('.class-name');
+```
+
+- Javascript Vanilla
+
+```js
+  parent.querySelector('.class-name'); // single
+  parent.querySelectorAll('.class-name'); // multiple
+```
 
 ### Add class
 

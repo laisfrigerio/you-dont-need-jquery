@@ -25,8 +25,8 @@ Replace jQuery methods with Vanilla Javascript
 15. [Hide element](#15-hide-element)
 16. [Show element with transition](#16-show-element-with-transition)
 17. [Hide element with transition](#17-hide-element-with-transition)
-18. [Loop through Array](#loop-through-array)
-19. [Loop through Object](#loop-through-object)
+18. [Loop through Array](#18-loop-through-array)
+19. [Loop through Object](#19-loop-through-object)
 20. [Add Event Listener](#add-event-listener)
 21. [Ajax request](#ajax-request)
 
@@ -258,9 +258,21 @@ Using vanilla javascript, require extra css:
   }
 ```
 
-### Loop through Array
+### 18. Loop through Array
 
-### Loop through Object
+```js
+  // jQuery:
+  array.each((item), function {
+    // ...
+  });
+
+  // ES6:
+  array.forEach((item) => {
+    // ...
+  });
+```
+
+### 19. Loop through Object
 
 ### Add Event Listener
 

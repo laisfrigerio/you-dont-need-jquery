@@ -12,22 +12,23 @@ Replace jQuery methods with Vanilla Javascript
 2. [Select something within a parent](#2-select-something-within-a-parent)
 3. [Add class](#3-add-class)
 4. [Remove class](#4-remove-class)
-5. [Get attribute](#5-get-attribute)
-6. [Set attribute](#6-set-attribute)
-7. [Get data attribute](#7-get-data-attribute)
-8. [Set data attribute](#8-set-data-attribute)
-9. [Get Text](#9-get-text)
-10. [Get HTML](#10-get-html)
-11. [Insert HTML string](#11-insert-html-string)
-12. [Insert text string](#12-insert-text-string)
-13. [Show element](#13-show-element)
-14. [Hide element](#14-hide-element)
-15. [Show element with transition](#15-show-element-with-transition)
-16. [Hide element with transition](#16-hide-element-with-transition)
-17. [Loop through Array](#loop-through-array)
-18. [Loop through Object](#loop-through-object)
-19. [Add Event Listener](#add-event-listener)
-20. [Ajax request](#ajax-request)
+5. [Toggle class](#5-toggle-class)
+6. [Get attribute](#6-get-attribute)
+7. [Set attribute](#7-set-attribute)
+8. [Get data attribute](#8-get-data-attribute)
+9. [Set data attribute](#9-set-data-attribute)
+10. [Get Text](#10-get-text)
+11. [Get HTML](#11-get-html)
+12. [Insert HTML string](#12-insert-html-string)
+13. [Insert text string](#13-insert-text-string)
+14. [Show element](#14-show-element)
+15. [Hide element](#15-hide-element)
+16. [Show element with transition](#16-show-element-with-transition)
+17. [Hide element with transition](#17-hide-element-with-transition)
+18. [Loop through Array](#loop-through-array)
+19. [Loop through Object](#loop-through-object)
+20. [Add Event Listener](#add-event-listener)
+21. [Ajax request](#ajax-request)
 
 ## How to replace jQuery with Vanilla Javascript
 
@@ -81,7 +82,17 @@ Removing a class from an element:
   element.classList.remove('.class-name');
 ```
 
-### 5. Get attribute
+### 5. Toggle class
+
+```js
+  // jQuery
+  element.toggleClass('.class-name');
+
+  // ES6
+  element.classList.toggle('.class-name');
+```
+
+### 6. Get attribute
 
 Get atrribute value from an element:
 
@@ -93,7 +104,7 @@ Get atrribute value from an element:
   element.getAttribute('href');
 ```
 
-### 6. Set attribute
+### 7. Set attribute
 
 Set value into an attribute from an element:
 
@@ -105,7 +116,7 @@ Set value into an attribute from an element:
   element.setAttribute('href', 'https://www.google.com');
 ```
 
-### 7. Get data attribute
+### 8. Get data attribute
 
 Get data atrribute value from an element:
 
@@ -117,7 +128,7 @@ Get data atrribute value from an element:
   element.getAttribute('data-id');
 ```
 
-### 8. Set data attribute
+### 9. Set data attribute
 
 Set value into data attribute from an element:
 
@@ -130,7 +141,7 @@ Set value into data attribute from an element:
   element.dataset.id = 1;
 ```
 
-### 9. Get Text
+### 10. Get Text
 
 Getting text from an element:
 
@@ -142,7 +153,7 @@ Getting text from an element:
   element.textContent;
 ```
 
-### 10. Get HTML
+### 11. Get HTML
 
 Getting HTML from an element:
 
@@ -154,7 +165,7 @@ Getting HTML from an element:
   element.innerHTML;
 ```
 
-### 11. Insert HTML string
+### 12. Insert HTML string
 
 Adding HTML into an element:
 
@@ -166,7 +177,7 @@ Adding HTML into an element:
   element.innerHTML = '<a href="https://www.gogle.com">Google</a>';
 ```
 
-### 12. Insert text string
+### 13. Insert text string
 
 Adding text into an element:
 
@@ -178,7 +189,7 @@ Adding text into an element:
   element.innerText = 'Your text here';
 ```
 
-### 13. Show element
+### 14. Show element
 
 ```js
   // jQuery
@@ -188,7 +199,7 @@ Adding text into an element:
   element.style.display = 'block';
 ```
 
-### 14. Hide element
+### 15. Hide element
 
 ```js
   // jQuery
@@ -198,7 +209,7 @@ Adding text into an element:
   element.style.display = 'none';
 ```
 
-### 15. Show element with transition
+### 16. Show element with transition
 
 ```js
   // jQuery
@@ -222,7 +233,7 @@ Using vanilla javascript, require extra css:
   }
 ```
 
-### 16. Hide element with transition
+### 17. Hide element with transition
 
 ```js
   // jQuery

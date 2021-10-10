@@ -33,6 +33,19 @@ Replace jQuery methods with Vanilla Javascript
 
 ### Select something
 
+- jQuery
+
+```js
+  $( '.class-name' );
+```
+
+- Javascript Vanilla
+
+```js
+  document.querySelector( '.class-name' ); // single
+  document.querySelectorAll( '.class-name' ); // multiple
+```
+
 ### Select something within a parent
 
 ### Add class

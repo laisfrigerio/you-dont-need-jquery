@@ -8,6 +8,22 @@ Replace jQuery methods with Vanilla Javascript
 2. [Select something within a parent](#select-something-within-a-parent)
 3. [Add class](#add-class)
 4. [Remove class](#remove-class)
+5. [Get attribute](#get-attribute)
+6. [Set attribute](#set-attribute)
+7. [Get data attribute](#get-data-attribute)
+8. [Set data attribute](#set-data-attribute)
+9. [Get Text](#get-text)
+10. [Get HTML](#get-html)
+11. [Insert HTML string](#insert-html-string)
+12. [Insert text string](#insert-text-string)
+13. [Show element](#show-element)
+14. [Hide element](#hide-element)
+15. [Show element with transition](#show-element-with-transition)
+16. [Hide element with transition](#hide-element-with-transition)
+17. [Loop through Array](#loop-through-array)
+18. [Loop through Object](#loop-through-object)
+19. [Add Event Listener](#add-event-listener)
+20. [Ajax request](#ajax-request)
 
 ## How to replace Jquery with Vanilla Javascript
 

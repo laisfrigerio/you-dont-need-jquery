@@ -20,8 +20,8 @@ Replace jQuery methods with Vanilla Javascript
 10. [Get HTML](#10-get-html)
 11. [Insert HTML string](#11-insert-html-string)
 12. [Insert text string](#12-insert-text-string)
-13. [Show element](#show-element)
-14. [Hide element](#hide-element)
+13. [Show element](#13-show-element)
+14. [Hide element](#14-hide-element)
 15. [Show element with transition](#show-element-with-transition)
 16. [Hide element with transition](#hide-element-with-transition)
 17. [Loop through Array](#loop-through-array)
@@ -29,7 +29,7 @@ Replace jQuery methods with Vanilla Javascript
 19. [Add Event Listener](#add-event-listener)
 20. [Ajax request](#ajax-request)
 
-## How to replace Jquery with Vanilla Javascript
+## How to replace jQuery with Vanilla Javascript
 
 ### 1. Select something
 
@@ -178,9 +178,25 @@ Adding text into an element:
   element.innerText = 'Your text here';
 ```
 
-### Show element
+### 13. Show element
 
-### Hide element
+```js
+  // jQuery
+  element.show();
+
+  // ES6
+  element.style.display = 'block';
+```
+
+### 14. Hide element
+
+```js
+  // jQuery
+  element.hide();
+
+  // ES6
+  element.style.display = 'none';
+```
 
 ### Show element with transition
 

@@ -2,7 +2,12 @@
 
 Replace jQuery methods with Vanilla Javascript
 
-## Summary
+## Table of Content
+
+1. [Select something](#select-something)
+2. [Select something within a parent](#select-something-within-a-parent)
+3. [Add class](#add-class)
+4. [Remove class](#remove-class)
 
 ## How to replace Jquery with Vanilla Javascript
 

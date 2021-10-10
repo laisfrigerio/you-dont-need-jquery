@@ -39,7 +39,7 @@ Replace jQuery methods with Vanilla Javascript
   $('.class-name');
 ```
 
-- Javascript Vanilla
+- Vanilla Javascript
 
 ```js
   document.querySelector('.class-name'); // single
@@ -52,7 +52,7 @@ Replace jQuery methods with Vanilla Javascript
   parent.find('.class-name');
 ```
 
-- Javascript Vanilla
+- Vanilla Javascript
 
 ```js
   parent.querySelector('.class-name'); // single
@@ -67,13 +67,25 @@ Replace jQuery methods with Vanilla Javascript
   element.addClass('.class-name');
 ```
 
-- Javascript Vanilla
+- Vanilla Javascript
 
 ```js
   element.classList.add('.class-name');
 ```
 
-### Remove class
+### 4. Remove class
+
+- jQuery
+
+```js
+  element.removeClass('.class-name');
+```
+
+- Vanilla Javascript
+
+```js
+  element.classList.remove('.class-name');
+```
 
 ### Get attribute
 

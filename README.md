@@ -93,9 +93,26 @@ Replace jQuery methods with Vanilla Javascript
   element.setAttribute('href', 'https://www.google.com');
 ```
 
-### Get data attribute
+### 7. Get data attribute
 
-### Set data attribute
+```js
+  // jQuery
+  element.data('id');
+
+  // ES6
+  element.getAttribute('data-id');
+```
+
+### 8. Set data attribute
+
+```js
+  // jQuery
+  element.data('id');
+
+  // ES6
+  element.setAttribute('data-id', 1);
+  element.dataset.id = 1;
+```
 
 ### Get Text
 

@@ -33,6 +33,8 @@ Replace jQuery methods with Vanilla Javascript
 
 ### 1. Select something
 
+Selecting element by class name. You can also use to select by tag or identifier:
+
 ```js
   // jQuery
   $('.class-name');
@@ -43,6 +45,8 @@ Replace jQuery methods with Vanilla Javascript
 ```
 
 ### 2. Select something within a parent
+
+This example is similar with above: select element throught a parent:
 
 ```js
   // jQuery
@@ -55,6 +59,8 @@ Replace jQuery methods with Vanilla Javascript
 
 ### 3. Add class
 
+Adding a class into an element:
+
 ```js
   // jQuery
   element.addClass('.class-name');
@@ -64,6 +70,8 @@ Replace jQuery methods with Vanilla Javascript
 ```
 
 ### 4. Remove class
+
+Removing a class from an element:
 
 ```js
   // jQuery
@@ -75,6 +83,8 @@ Replace jQuery methods with Vanilla Javascript
 
 ### 5. Get attribute
 
+Get atrribute value from an element:
+
 ```js
   // jQuery
   element.attr('href');
@@ -84,6 +94,8 @@ Replace jQuery methods with Vanilla Javascript
 ```
 
 ### 6. Set attribute
+
+Set value into an attribute from an element:
 
 ```js
   // jQuery
@@ -95,6 +107,8 @@ Replace jQuery methods with Vanilla Javascript
 
 ### 7. Get data attribute
 
+Get data atrribute value from an element:
+
 ```js
   // jQuery
   element.data('id');
@@ -104,6 +118,8 @@ Replace jQuery methods with Vanilla Javascript
 ```
 
 ### 8. Set data attribute
+
+Set value into data attribute from an element:
 
 ```js
   // jQuery

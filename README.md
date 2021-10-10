@@ -261,12 +261,12 @@ Using vanilla javascript, require extra css:
 ### 18. Loop through Array
 
 ```js
-  // jQuery:
+  // jQuery
   array.each((item), function {
     // ...
   });
 
-  // ES6:
+  // ES6
   array.forEach((item) => {
     // ...
   });
@@ -275,12 +275,12 @@ Using vanilla javascript, require extra css:
 ### 19. Loop through Object
 
 ```js
-  // jQuery:
+  // jQuery
   object.each((key, value), function {
     // ...
   });
 
-  // ES6:
+  // ES6
   for (const key in object) {
     console.log(key, object[key]);
   }
@@ -294,12 +294,12 @@ Using vanilla javascript, require extra css:
 ### 20. Add Event Listener
 
 ```js
-  // jQuery:
+  // jQuery
   element.on( 'click', function(event) {
     // ...
   });
 
-  // ES6:
+  // ES6
   element.addEventListener('click', (event) => {
     // ...
   });
@@ -308,7 +308,7 @@ Using vanilla javascript, require extra css:
 ### 21. Ajax request
 
 ```js
-  // jQuery:
+  // jQuery
   $.ajax({
     url: 'https://example.com',
     method: 'post',
@@ -323,7 +323,7 @@ Using vanilla javascript, require extra css:
     }
   });
 
-  // ES6:
+  // ES6
   fetch( 'https://example.com', {
     method: 'post',
     headers: {

@@ -8,14 +8,14 @@ Replace jQuery methods with Vanilla Javascript
 
 ## 📝 Table of Content
 
-1. [Select something](#select-something)
-2. [Select something within a parent](#select-something-within-a-parent)
-3. [Add class](#add-class)
-4. [Remove class](#remove-class)
-5. [Get attribute](#get-attribute)
-6. [Set attribute](#set-attribute)
-7. [Get data attribute](#get-data-attribute)
-8. [Set data attribute](#set-data-attribute)
+1. [Select something](#1-select-something)
+2. [Select something within a parent](#2-select-something-within-a-parent)
+3. [Add class](#3-add-class)
+4. [Remove class](#4-remove-class)
+5. [Get attribute](#5-get-attribute)
+6. [Set attribute](#6-set-attribute)
+7. [Get data attribute](#7-get-data-attribute)
+8. [Set data attribute](#8-set-data-attribute)
 9. [Get Text](#get-text)
 10. [Get HTML](#get-html)
 11. [Insert HTML string](#insert-html-string)

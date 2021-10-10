@@ -274,6 +274,24 @@ Using vanilla javascript, require extra css:
 
 ### 19. Loop through Object
 
+```js
+  // jQuery:
+  object.each((key, value), function {
+    // ...
+  });
+
+  // ES6:
+  for (const key in object) {
+    console.log(key, object[key]);
+  }
+
+  // or
+
+  for (const [key, value] of Object.entries(object)) {
+    console.log(key, value);
+  }
+```
+
 ### Add Event Listener
 
 ### Ajax request

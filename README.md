@@ -33,13 +33,13 @@ Replace jQuery methods with Vanilla Javascript
 
 ### 1. Select something
 
-- jQuery
+❌ jQuery
 
 ```js
   $('.class-name');
 ```
 
-- Vanilla Javascript
+✔️ Vanilla JS
 
 ```js
   document.querySelector('.class-name'); // single
@@ -48,11 +48,13 @@ Replace jQuery methods with Vanilla Javascript
 
 ### 2. Select something within a parent
 
+❌ jQuery
+
 ```js
   parent.find('.class-name');
 ```
 
-- Vanilla Javascript
+✔️ Vanilla JS
 
 ```js
   parent.querySelector('.class-name'); // single
@@ -75,13 +77,13 @@ Replace jQuery methods with Vanilla Javascript
 
 ### 4. Remove class
 
-- jQuery
+❌ jQuery
 
 ```js
   element.removeClass('.class-name');
 ```
 
-- Vanilla Javascript
+✔️ Vanilla JS
 
 ```js
   element.classList.remove('.class-name');

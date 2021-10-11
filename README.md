@@ -344,7 +344,7 @@ Using vanilla javascript, require extra css:
 
 Please, read [CONTRIBUTION.md](https://github.com/laisfrigerio/you-dont-need-jquery/blob/main/CONTRIBUTION.md) file
 
-## :woman: Author
+## 👩 Author
 
 | [<img src="https://avatars.githubusercontent.com/u/20709086?v=4" width="100px;" alt="Lais Frigério"/><br /><sub><b>@laisfrigerio</b></sub>](https://github.com/laisfrigerio)<br /> |
 | :---: |

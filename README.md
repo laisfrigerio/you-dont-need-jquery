@@ -126,6 +126,7 @@ Get data atrribute value from an element:
 
   // ES6
   element.getAttribute('data-id');
+  element.dataset.id;
 ```
 
 ### 9. Set data attribute
